@@ -2,11 +2,7 @@ package com.uap.it1311l.passwordencryptorapi.controller;
 
 import com.uap.it1311l.passwordencryptorapi.models.EncryptionResponse;
 import com.uap.it1311l.passwordencryptorapi.models.UapEncryptionRequest;
-import com.uap.it1311l.passwordencryptorapi.repository.PasswordEncryptorMybatisRepository;
-import com.uap.it1311l.passwordencryptorapi.models.DecryptionResponse; // Import DecryptionResponse
 import com.uap.it1311l.passwordencryptorapi.service.EncryptDecryptService;
-import com.uap.it1311l.passwordencryptorapi.webclient.DecryptionApiClient;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
